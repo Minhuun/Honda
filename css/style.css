@@ -943,7 +943,7 @@ textarea.input {
 .product .product-body .product-category {
   text-transform: uppercase;
   font-size: 14px;
-  color: #8D99AE;
+  color: #787878;
 }
 
 .product .product-body .product-name {
@@ -1124,7 +1124,7 @@ textarea.input {
   position: absolute;
   left: 0px;
   top: 0px;
-  width: 60px;
+  width: 95px;
 }
 
 .product-widget .product-img>img {
@@ -1132,23 +1132,23 @@ textarea.input {
 }
 
 .product-widget .product-body {
-  padding-left: 75px;
-  min-height: 60px;
+  padding-left: 100px;
+  min-height: 70px;
 }
 
 .product-widget .product-body .product-category {
   text-transform: uppercase;
-  font-size: 10px;
-  color: #8D99AE;
+  font-size: 14px;
+  color: #708090;
 }
 
 .product-widget .product-body .product-name {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .product-widget .product-body .product-name>a {
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .product-widget .product-body .product-name>a:hover, .product-widget .product-body .product-name>a:focus {
@@ -1161,8 +1161,8 @@ textarea.input {
 }
 
 .product-widget .product-body .product-price .product-old-price {
-  font-size: 70%;
-  font-weight: 400;
+  font-size: 85%;
+  font-weight: 500;
   color: #8D99AE;
 }
 
@@ -1972,7 +1972,7 @@ textarea.input {
 }
 
 .newsletter form:after {
-  content: "\f003";
+  content: "\f10b";
   font-family: FontAwesome;
   position: absolute;
   font-size: 160px;
@@ -2021,7 +2021,7 @@ textarea.input {
   height: 40px;
   text-align: center;
   line-height: 40px;
-  border: 1px solid #E4E7ED;
+  border: 1px solid blue;
   background-color: #FFF;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
@@ -2042,7 +2042,7 @@ textarea.input {
 }
 
 #bottom-footer {
-  background: #1E1F29;
+  background: #202020;
 }
 
 .footer {
@@ -2079,6 +2079,13 @@ textarea.input {
   margin-top: 30px;
   display: block;
   font-size: 12px;
+  color: #FBFBFC;
+}
+.copyright a{
+  color: red;
+}
+.copyright i{
+  color: red;
 }
 
 .footer-payments li {
@@ -2087,7 +2094,7 @@ textarea.input {
 }
 
 .footer-payments li a {
-  color: #15161D;
+  color: 	#F5DEB3;
   font-size: 36px;
   display: block;
 }
